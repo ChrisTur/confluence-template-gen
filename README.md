@@ -21,6 +21,6 @@ This tool is great for SRE teams, release managers, and engineering orgs that wa
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/confluence-template-generator.git
+git clone https://github.com/ChrisTur/confluence-template-gen.git
 cd confluence-template-generator
 pip install -r requirements.txt
