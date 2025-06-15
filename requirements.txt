@@ -1,0 +1,4 @@
+requests>=2.25.1
+jinja2>=2.11.3
+docopt>=0.6.2
+PyYAML>=5.4.1
