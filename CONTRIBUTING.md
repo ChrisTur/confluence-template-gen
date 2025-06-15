@@ -13,21 +13,22 @@ Click the **Fork** button on the top right of the [GitHub repo](https://github.c
 ```bash
 git clone https://github.com/<your-username>/confluence-template-generator.git
 cd confluence-template-generator
-2. Create a Feature Branch
+```
+
+### 2. Create a Feature Branch
 Use a clear and descriptive branch name:
 
-bash
-Copy
-Edit
+```bash
 git checkout -b feature/add-new-template
-3. Install Dependencies
+```
+### 3. Install Dependencies
+
 Use Python 3.8+ and install the required packages:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-4. Make Your Changes
+```
+### 4. Make Your Changes
 Common contribution types:
 
 Add new templates to config.sample.yaml
@@ -38,17 +39,18 @@ Improve template rendering logic in generate_confluence_page.py
 
 Update documentation (README.md, comments, etc.)
 
-5. Lint and Test
+### 5. Lint and Test
 Ensure the code is clean and functional. Optionally, use tools like black, flake8, or pytest for formatting and testing.
 
-6. Commit and Push
-bash
-Copy
-Edit
+### 6. Commit and Push
+```bash
+
 git add .
 git commit -m "Add: new release notes template"
 git push origin feature/add-new-template
-7. Open a Pull Request
+```
+
+### 7. Open a Pull Request
 Go to your fork and open a Pull Request (PR) to the main branch of this repository.
 
 Include:
